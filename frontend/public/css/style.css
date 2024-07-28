@@ -1,0 +1,318 @@
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.home-banner{
+    padding:100px 100px 100px 100px;
+}
+
+.banner-text{
+    color:white;
+    font-size:16px;
+}
+
+.banner-title{
+    color:white;
+    font-weight: 600 ;
+    font-size:40px;
+    width:600px;
+}
+
+.banner-btn{
+    color:white;
+    font-weight: bold;
+}
+
+.home-section{
+    width:100%;
+    display:flex;
+    align-self: center;
+    padding:100px 0px 100px 100px;
+}
+
+.text-title{
+    font-size:24px;
+    font-weight: 700;
+    color:#26577C;
+    text-transform: uppercase;
+}
+
+.orange-text{
+    color:#E55604;
+}
+
+.list{
+    font-size: 16px;
+    /* color:#26577C; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.list li{
+    padding-top:20px;
+}
+
+.home-services{
+    display:flex;
+    flex-direction: column;
+    color:white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-service-block{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:300px !important;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.home-services-title{
+    font-size:24px;
+    font-weight: 600;
+    margin-bottom:50px;
+}
+
+.accordion{
+    max-width:850px;
+    margin-left:100px;
+    --bs-accordion-color:#26577C !important;
+    --bs-accordion-btn-color:#26577C !important;
+    --bs-accordion-active-color: #26577C !important;
+    margin-bottom:100px;
+}
+
+.home-contact-section{
+    height:352px;
+    background-color: rgba(245, 245, 245, 1);
+    padding-left:200px;
+}
+
+.footer-links a{
+    color:white;
+}
+
+.footer-links a:hover{
+    color:#E55604;
+}
+
+@media screen and (max-width: 1360px) {
+    .home-contact-image{
+        display:none;
+    }
+}
+
+.reservation-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+select,input{
+    padding:10px;
+    background-color: rgba(245, 245, 245, 1);
+    border-radius:10px;
+    border:1px solid rgba(217, 217, 217, 1);
+    width:420px;
+    margin-bottom:20px;
+}
+
+Form{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+textarea{
+    width:420px;
+    height:100px ;
+    padding:20px;
+    background-color: rgba(245, 245, 245, 1);
+    border-radius:10px;
+    border:1px solid rgba(217, 217, 217, 1);
+    margin-bottom:20px;
+}
+}
+
+/* Dzessika css */
+
+.mission-header {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.16px;
+    color: #E55604;
+    
+  }
+
+.mission-text {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    
+}
+
+
+.Row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Два столбца в первой строке */
+    gap: 10px; /* Расстояние между картами */
+    width: 100%;
+    text-align: center;
+    
+}
+
+/* Стили для каждой карты */
+.Card {
+    height: 300px;
+    text-align: left;
+}
+
+.Card img {
+    object-fit: cover;
+    height: 300px;
+}
+
+.main-container{
+    width: 900px !important;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.mission-header_div {
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.service_container {
+    width: 1438px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-image {
+    width: 100%;
+    height: 230px;
+    background-size: cover;
+}
+
+.custom-image-container {
+    width:100%;
+    height: 230px;
+    position:relative;
+}
+
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+}
+
+.overlay-text-content {
+    color: white;
+    font-size: 30px; /* Размер шрифта */
+    font-weight:600;
+    text-transform: uppercase;
+}
+
+.daily_service {
+    text-align: left !important;
+    
+}
+
+.daily_service_title {
+        color: #26577C; /* Цвет текста */
+        font-family: 'Montserrat', sans-serif; /* Шрифт Montserrat */
+        font-weight: 700; /* Плотность шрифта (Weight) */
+        font-size: 24px; /* Размер шрифта */
+        line-height: 31.16px; /* Высота строки */
+}
+
+.service_container{
+    p{
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+}
+
+.price {
+    color: #E55604;
+   
+}
+
+.conditions {
+    background-color: #f0f0f0; /* Светло-серый цвет фона */
+    padding: 20px; /* Добавим немного отступа для читаемости */
+    width: 100%;
+}
+
+.conditions h2 {
+    color: #26577C; /* Цвет текста заголовка */
+}
+
+.conditions ul {
+    list-style-type: disc; /* Устанавливаем маркер в виде синей точки */
+    color: #26577C; /* Цвет текста списка */
+}
+
+.conditions li {
+    margin-bottom: 10px; /* Добавим отступ между элементами списка */
+}
+
+.custom-button {
+    width: 184px;
+    height: 48px;
+    top: 1250px;
+    left: 292px;
+    border-radius: 10px;
+    border: 1px solid #E55604;
+    padding: 14px 27px;
+    gap: 10px;
+    background-color: transparent; /* Прозрачный фон */
+    color: #E55604; /* Цвет текста */
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.createReviewBlock{
+
+    align-items: center;
+
+    select{
+        padding:10px;
+        background-color: rgba(245, 245, 245, 1);
+        border-radius:10px;
+        border:1px solid rgba(217, 217, 217, 1);
+        width:420px;
+        margin-bottom:20px; 
+    }
+
+    textarea{
+    width:100%;
+    height:100px ;
+    padding:20px;
+    background-color: rgba(245, 245, 245, 1);
+    border-radius:10px;
+    border:1px solid rgba(217, 217, 217, 1);
+    margin-bottom:20px;
+    }
+}
